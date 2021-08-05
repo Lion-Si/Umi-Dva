@@ -1,0 +1,101 @@
+.diagram {
+  :global {
+    .ant-card-body {
+      padding: 18px 12px 0px 12px;
+    }
+  }
+  .mainInfoList {
+    :global {
+      .ant-card-body {
+        border-top: 1px solid;
+        padding: 18px 12px 0px 12px;
+      }
+    }
+  }
+  .tableHeader {
+    :global {
+      .ant-table-tbody > tr > td {
+        // border-bottom: 1px solid #f0f0f0;
+        transition: background 0.3s;
+        text-align: center;
+      }
+    }
+  }
+  .cardType {
+    display: 'inline-block';
+    width: 100%;
+    height: 440px;
+    background-color: #ffffff;
+    padding: 0;
+    .ItemPanel {
+      .item:hover {
+        cursor: move;
+      }
+      .item {
+        margin-bottom: 10px;
+        user-select: none;
+        text-align: left;
+        height: 32px;
+        img {
+          height: 28px;
+          width: 28px;
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+  .cardTypeRight {
+    display: inline-block;
+    height: 440px;
+    padding: 0;
+    text-align: center;
+    vertical-align: middle;
+    margin: 0;
+    background-color: #ffffff;
+    border-radius: 15px;
+    border: none;
+    width: 88%;
+    .graph {
+      width: 100%;
+      position: relative;
+      height: 394px;
+      overflow: hidden;
+      font-size: 35px;
+      padding: 0;
+      background-color: rgb(247, 247, 247);
+    }
+
+    span {
+      cursor: pointer;
+      margin-right: 20px;
+      display: none;
+      font-size: 18px;
+      opacity: 0.85;
+    }
+    .fileDownsplit {
+      margin-top: 100px;
+      span {
+        margin: 0;
+        display: inline-block;
+        font-size: 14px;
+      }
+      .down {
+        font-size: 50px;
+        margin-bottom: 150px;
+      }
+    }
+  }
+  .selectButton {
+    border: none;
+    color: black;
+  }
+  .iconColor {
+    color: #ccc !important;
+    font-size: 14px;
+  }
+  .reRun {
+    width: 56 !important;
+    height: 22 !important;
+    border-radius: 3 !important;
+  }
+}

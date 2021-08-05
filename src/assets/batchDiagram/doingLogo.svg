@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="14px" viewBox="0 0 15 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63 (92445) - https://sketch.com -->
+    <title>执行成功</title>
+    <desc>Created with Sketch.</desc>
+    <g id="后台设计" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="各种图标状态-重跑状态" transform="translate(-584.000000, -391.000000)">
+            <g id="批转联服务调度-加载失败状态备份" transform="translate(515.400000, 391.000000)">
+                <g id="批转联服务调度-点击前状态-2" transform="translate(35.000000, 0.000000)">
+                    <g id="执行成功" transform="translate(34.000000, 0.000000)">
+                        <g id="-mockplus-">
+                            <g id="加载状态-成功">
+                                <g id="执行中">
+                                    <path d="M7,0 C3.134375,0 0,3.134375 0,7 C0,10.865625 3.134375,14 7,14 C10.865625,14 14,10.865625 14,7 C14,3.134375 10.865625,0 7,0 Z" id="路径备份-2" fill="#F7B500"></path>
+                                    <rect id="矩形" fill="#FFFFFF" x="3" y="7" width="8" height="1" rx="0.1"></rect>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="33px" height="32px" viewBox="0 0 33 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63 (92445) - https://sketch.com -->
+    <title>联机服务调度-图标</title>
+    <desc>Created with Sketch.</desc>
+    <g id="后台设计" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="13.批次任务配置-批次引擎服务配置-联机服务调度-批转联服务调度" transform="translate(-245.000000, -322.000000)">
+            <g id="编组-33" transform="translate(212.000000, 166.000000)">
+                <g id="编组-8备份-2" transform="translate(0.500000, 147.000000)">
+                    <g id="编组-7" transform="translate(33.000000, 9.000000)">
+                        <g id="联机服务调度-图标">
+                            <g id="编组-55" transform="translate(2.000000, 2.000000)">
+                                <g id="编组-62">
+                                    <path d="M14,0 C21.7319865,0 28,6.2680135 28,14 C28,21.7319865 21.7319865,28 14,28 C6.2680135,28 0,21.7319865 0,14 C0,6.2680135 6.2680135,0 14,0 Z M14,2 C7.372583,2 2,7.372583 2,14 C2,20.627417 7.372583,26 14,26 C20.627417,26 26,20.627417 26,14 C26,7.372583 20.627417,2 14,2 Z" id="椭圆形" fill="#3F67ED" fill-rule="nonzero"></path>
+                                    <circle id="椭圆形" fill="#EAEFFF" cx="14" cy="14" r="12"></circle>
+                                    <path d="M18,7 L10,7 C8.34314575,7 7,8.34314575 7,10 L7,15 C7,16.6568542 8.34314575,18 10,18 L18,18 C19.6568542,18 21,16.6568542 21,15 L21,10 C21,8.34314575 19.6568542,7 18,7 Z M10,9 L18,9 C18.5522847,9 19,9.44771525 19,10 L19,15 C19,15.5522847 18.5522847,16 18,16 L10,16 C9.44771525,16 9,15.5522847 9,15 L9,10 C9,9.44771525 9.44771525,9 10,9 Z" id="矩形" fill="#3F67ED" fill-rule="nonzero"></path>
+                                </g>
+                                <rect id="矩形" fill="#3F67ED" x="8" y="19" width="12" height="2" rx="1"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

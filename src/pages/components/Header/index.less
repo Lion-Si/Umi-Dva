@@ -1,0 +1,45 @@
+@multiple: 1391 /1174;
+.col1 {
+  padding-top: 31px * @multiple;
+  float: left;
+  margin-right: 46px * @multiple;
+}
+.col2 {
+  padding-top: 68px * @multiple;
+  float: left;
+  margin-right: 36px * @multiple;
+}
+.closeImg {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  cursor: pointer;
+  z-index: 100;
+}
+.header {
+  background-color: #eaecf9;
+  height: 128px * @multiple;
+  position: relative;
+}
+
+.h1 {
+  margin-top: 6px * @multiple;
+  color: #2c3493;
+  font-size: 28px * @multiple;
+  line-height: 40px * @multiple;
+}
+.h3 {
+  color: #686a90;
+  font-size: 20px * @multiple;
+}
+.box {
+  padding-left: 111px;
+  padding-right: 194px;
+  max-width: 1174px * @multiple;
+  margin: 0 auto;
+}
+.peopleImg {
+  height: 106px;
+  transform: scale(@multiple)
+    translate((@multiple - 1) * 100%, (@multiple - 1) * 100%);
+}

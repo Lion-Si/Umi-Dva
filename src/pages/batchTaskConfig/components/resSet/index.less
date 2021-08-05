@@ -1,0 +1,67 @@
+.editor {
+  display: flex;
+  flex-direction: column;
+  // 45px 工具栏高度
+  // 20px 内边距
+  height: calc(100vh - 45px - 20px - 50px - 44px);
+  background: #fff;
+  border: 1px solid #ccc;
+}
+
+.editorHd {
+  padding: 8px;
+  border: 1px solid #e6e9ed;
+  border-top: none;
+}
+
+.editorBd {
+  // flex: 1;
+  // overflow: auto;
+}
+
+.editorSidebar,
+.editorContent {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 44px - 65px - 100px);
+}
+
+.editorContent {
+  overflow: hidden;
+}
+
+.editorSidebar {
+  background: #fafafa;
+  overflow-y: auto;
+
+  &:first-child {
+    border-right: 1px solid #e6e9ed;
+  }
+
+  &:last-child {
+    border-left: 1px solid #e6e9ed;
+  }
+}
+
+.flow,
+.mind,
+.koni {
+  flex: 1;
+  // https://github.com/philipwalton/flexbugs/issues/197#issuecomment-378908438
+  height: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+:global {
+  .ReactCodeMirror {
+    flex: 1;
+    overflow-y: auto;
+
+    .CodeMirror {
+      height: 100%;
+    }
+  }
+}

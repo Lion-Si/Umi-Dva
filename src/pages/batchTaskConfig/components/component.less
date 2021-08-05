@@ -1,0 +1,432 @@
+.batchTaskConfig {
+  margin-bottom: 15px;
+  //批次任务配置
+  .batchTask {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    .topRow {
+      margin-top: 16px;
+    }
+    :global {
+      .ant-select
+        .ant-select-single
+        .ant-select-show-arrow
+        .ant-select-show-search {
+        width: 200px;
+        cursor: pointer;
+      }
+    }
+  }
+  .fadeIn {
+    will-change: auto;
+    -webkit-animation: fade-in 0.8s ease-in both;
+    animation: fade-in 0.8s ease-in both;
+  }
+  @-webkit-keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  //淡出
+  .fadeOut {
+    -webkit-animation: fade-out 0.8s ease-out both;
+    animation: fade-out 0.8s ease-out both;
+  }
+  @-webkit-keyframes fade-out {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  @keyframes fade-out {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  .batchMesTable {
+    display: inline-block;
+    width: 100%;
+    // width: 83.25vw;
+  }
+  //搜索框
+  .searchInput {
+    align-items: center;
+    margin-right: 3px;
+    margin-bottom: 25px;
+  }
+  //下一步按钮
+  .addNewBatch {
+    float: right;
+    font-size: 14px;
+    margin-top: 25px;
+    pointer-events: fill;
+  }
+
+  .cardType {
+    display: 'inline-block';
+    width: 100%;
+    height: 440px;
+    background-color: #ffffff;
+    padding: 0;
+    :global {
+      .ant-card-body {
+        height: 394px;
+        padding: 0px;
+      }
+    }
+    .ItemPanel {
+      max-height: 360px;
+      align-items: center;
+      //节点hover事件
+      // .item:hover::before {
+      //   opacity: 1;
+      // }
+      .item:hover {
+        //   background-color: #3f67ed;
+        //   border-radius: 4px;
+        //   color: white;
+        cursor: move;
+        //   transition: color 0.5s ease, background ease 0.8s;
+        //   box-shadow: 0px 0px 15px 0px #3f67ed;
+      }
+      // .item::before {
+      //   opacity: 0;
+      //   color: black;
+      //   background-color: #ffffff;
+      //   transition-duration: 10.3s;
+      // }
+      .item {
+        margin-bottom: 35px;
+        color: black;
+        user-select: none;
+        text-align: center;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        word-break: break-all;
+        .item:first-child {
+          margin-top: 15px;
+          background-color: aqua;
+        }
+        img {
+          height: 28px;
+          width: 28px;
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+  .cardTypeRight {
+    display: inline-block;
+    height: 440px;
+    width: 100%;
+    padding: 0;
+    text-align: center;
+    vertical-align: middle;
+    margin: 0;
+    background-color: #ffffff;
+    border-radius: 15px;
+    border: none;
+    .graph {
+      width: 100%;
+      height: 394px;
+      overflow: hidden;
+      font-size: 35px;
+      padding: 0;
+      // border-radius: 15px;
+
+      background-color: rgb(247, 247, 247);
+    }
+    // .graph:hover {
+    //   transition: box-shadow 0.4s, border-color 0.4s;
+    //   box-shadow: 6px 6px 3px #888888;
+    // }
+    span {
+      cursor: pointer;
+      margin-right: 20px;
+      font-size: 18px;
+      opacity: 0.85;
+    }
+    .fileDownSplit {
+      margin-top: 100px;
+      span {
+        margin: 0;
+        display: inline-block;
+        font-size: 14px;
+      }
+      .down {
+        font-size: 50px;
+        margin-bottom: 150px;
+      }
+    }
+  }
+
+  .configModalRight {
+    display: inline-block;
+    width: 80vw;
+    height: 60vh;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #ffffff;
+    border-radius: 15px;
+    border: none;
+    .configFlow {
+      width: 100%;
+      position: relative;
+      height: 394px;
+      overflow: hidden;
+      font-size: 35px;
+      padding: 0;
+      border-radius: 15px;
+      background-color: rgb(247, 247, 247);
+    }
+  }
+
+  //文件组合合并
+  .fileSortMerge {
+    padding-top: 20px;
+    background-color: #ffffff;
+    .icons {
+      transform: scale(1.4);
+    }
+  }
+
+  //一清二拆配置
+  .clearDismantle {
+    padding-top: 20px;
+    padding: 20px 20px 0 20px;
+    background-color: #ffffff;
+  }
+  //分片文件解析入库
+  .splitFileInStorageForm {
+    padding-top: 20px;
+    background-color: #ffffff;
+
+    .saveButton {
+      :global {
+        .ant-btn {
+          float: right;
+          margin: 15px 0;
+        }
+      }
+    }
+    .cancelButton {
+      float: right;
+      margin: 15px 20px 0 0;
+    }
+    img {
+      float: left;
+      height: 16px;
+      width: 16px;
+      top: -20px;
+      cursor: pointer;
+    }
+  }
+  .setButton {
+    margin-left: 40px;
+  }
+  //联机服务调度
+  .serverDispatchForm {
+    padding-top: 20px;
+    background-color: #ffffff;
+    .showConfig {
+      font-size: 20px;
+      font-weight: 600;
+    }
+
+    :global {
+      .ant-tabs-tab {
+        margin: 0 0 0 84px;
+      }
+    }
+  }
+  //分片文件结果生成
+  .splitResCreateForm {
+    padding-top: 20px;
+    background-color: #ffffff;
+    .saveButton {
+      float: right;
+      margin: 15px 0;
+    }
+    .cancelButton {
+      float: right;
+      margin: 15px 20px 0 0;
+    }
+    img {
+      float: left;
+      top: -20px;
+      height: 16px;
+      width: 16px;
+      cursor: pointer;
+    }
+  }
+  .fileCheckForm {
+    padding-top: 20px;
+    display: none;
+    background-color: #ffffff;
+  }
+  //文件拆分
+  .fileSplitForm {
+    padding-top: 20px;
+    display: none;
+    background-color: #ffffff;
+    .icons {
+      right: -25px;
+      top: 8px;
+      position: absolute;
+      display: inline-block;
+      transform: scale(1.4);
+    }
+  }
+  .fileList {
+    margin-bottom: 15px;
+    :global {
+      .ant-table-content tbody.ant-table-tbody {
+        tr {
+          border: 1px solid #c2c2c2;
+          td {
+            border: 1px solid #c2c2c2;
+            background-color: #fff;
+            color: rgba(0, 0, 0, 0.65);
+            margin: 0;
+            font-weight: 400;
+            font-family: PingFangSC, PingFangSC-Medium;
+            font-size: 12px;
+            text-align: center;
+          }
+        }
+      }
+      .ant-table-content thead.ant-table-thead {
+        tr {
+          border-bottom: 1px solid #c2c2c2;
+          th {
+            border: 1px solid #c2c2c2;
+            background-color: #fff;
+            color: rgba(0, 0, 0, 0.85);
+            margin: 0;
+            font-weight: 500;
+            font-family: PingFangSC, PingFangSC-Medium;
+            font-size: 14px;
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+  //返回按钮
+  .returnButton {
+    top: 1px;
+    // border: 1px solid #e8e8e8;
+    float: right;
+    height: 44px;
+    width: 72px;
+  }
+  .searchForm {
+    :global {
+      .ant-card-body {
+        padding-bottom: 15px;
+      }
+    }
+  }
+  .resFileList {
+    :global {
+      .ant-row .ant-col .ant-col-3 .ant-col-offset-1 {
+        padding-left: 13px;
+        padding-right: 0px;
+        max-width: 87px;
+      }
+    }
+  }
+  :global {
+    .ant-switch-checked {
+      background-color: #3f67ed;
+    }
+
+    .ant-row {
+      margin-left: 0px !important;
+    }
+    .antd-card-body {
+      padding: 0px;
+      min-width: 16.7vw;
+      background-color: #ffffff;
+    }
+
+    .ant-table-title {
+      font-size: 20px;
+      font-weight: 500;
+      opacity: 0.85;
+      line-height: 22px;
+    }
+
+    //子节点表头样式
+    .item-title {
+      background-image: url(../../../assets/common/tableBg.png);
+      background-repeat: no-repeat;
+      background-size: 100%;
+      min-height: 44.75px;
+      line-height: 44.75px;
+      color: #ffffff;
+      border-radius: 7px 7px 0 0;
+      text-align: center;
+      padding: 0;
+    }
+
+    .ant-card-head-title {
+      //调用共同样式
+      .item-title();
+      min-width: 20%;
+    }
+
+    .ant-card-head {
+      //调用共同样式
+      .item-title();
+      min-width: 197.5px 46.75px;
+    }
+
+    .ant-col .ant-col-4 {
+      background-color: aqua;
+      width: 16.7vw;
+      padding: 0 !important;
+    }
+    .ant-col .ant-col-16 {
+      padding: 0 !important;
+    }
+    .ant-row .ant-row-bottom {
+      padding: 0 !important;
+      margin-left: 45px !important;
+    }
+    .datAraInColumns {
+      .ant-col .ant-col-8 .ant-form-item-label {
+        line-height: 50px;
+        text-align: center;
+        background-color: aqua;
+      }
+    }
+    .ant-collapse > .ant-collapse-item:last-child {
+      width: 7.8vw;
+      padding: 0;
+    }
+    .ant-collapse-ghost
+      > .ant-collapse-item
+      > .ant-collapse-content
+      > .ant-collapse-content-box {
+      padding: 0;
+    }
+  }
+}

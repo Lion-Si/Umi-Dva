@@ -1,0 +1,61 @@
+// export default {
+//   'POST /api/menulist': [
+//     {
+//       chnNo: '66666',
+//       batType: '不知道',
+//       busCode: '5555',
+//       crtTlrNo: '0982',
+//       modTlrNo: '0936',
+//       crtTmstmp: '2020-12-31 23:59:59',
+//       modTmstmp: '2020-12-31 23:59:59',
+//     },
+//     {
+//       chnNo: '66666',
+//       batType: '不知道',
+//       busCode: '5555',
+//       crtTlrNo: '0982',
+//       modTlrNo: '0936',
+//       crtTmstmp: '2020-12-31 23:59:59',
+//       modTmstmp: '2020-12-31 23:59:59',
+//     },
+//     {
+//       chnNo: '66666',
+//       batType: '不知道',
+//       busCode: '5555',
+//       crtTlrNo: '0982',
+//       modTlrNo: '0936',
+//       crtTmstmp: '2020-12-31 23:59:59',
+//       modTmstmp: '2020-12-31 23:59:59',
+//     },
+//     {
+//       chnNo: '66666',
+//       batType: '不知道',
+//       busCode: '5555',
+//       crtTlrNo: '0982',
+//       modTlrNo: '0936',
+//       crtTmstmp: '2020-12-31 23:59:59',
+//       modTmstmp: '2020-12-31 23:59:59',
+//     },
+//     {
+//       chnNo: '66666',
+//       batType: '不知道',
+//       busCode: '5555',
+//       crtTlrNo: '0982',
+//       modTlrNo: '0936',
+//       crtTmstmp: '2020-12-31 23:59:59',
+//       modTmstmp: '2020-12-31 23:59:59',
+//     },
+//   ],
+//   'POST /api/chnNo': [
+//     {
+//       chnNo: '66666',
+//       batType: '不知道',
+//       busCode: '5555',
+//       crtTlrNo: '0982',
+//       modTlrNo: '0936',
+//       crtTmstmp: '2020-12-31 23:59:59',
+//       modTmstmp: '2020-12-31 23:59:59',
+//     },
+//   ],
+
+// };

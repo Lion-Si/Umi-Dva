@@ -1,0 +1,110 @@
+//全局覆盖变量--antd--样式覆盖
+//引入定义less
+@import (once) './definiens.less';
+
+a {
+  color: black;
+}
+a:hover {
+  color: @shape-color;
+}
+
+:global {
+  //进度条样式
+  // .ant-progress-success-bg, .ant-progress-bg{
+  //   background-color:@shape-color !important;
+  //   background-image: repeating-linear-gradient(135deg, hsla(0,0%,100%,.3),hsla(0,0%,100%,.2) 8px,transparent 0px,transparent 25px) !important;
+  //   border: 2px solid #dae2ff;
+  // }
+  // .ant-progress-inner{
+  //   height: 16px;
+  // }
+
+  .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: @shape-color;
+    text-shadow: 0 0 0.25px currentColor;
+  }
+
+  //表头样式
+  .ant-table-content thead.ant-table-thead {
+    tr {
+      th {
+        background-color: #eaecf9;
+        color: rgba(0, 0, 0, 0.85);
+        margin: 0;
+        font-weight: 500;
+        font-family: PingFangSC, PingFangSC-Medium;
+        font-size: 14px;
+        text-align: center;
+      }
+    }
+  }
+
+  .ant-select-item-option-selected:not(.ant-select-item-option-disabled) {
+    color: rgba(0, 0, 0, 0.85);
+    font-weight: 600;
+    background-color: @select-bgColor;
+  }
+  .ant-select-item-option-active:not(.ant-select-item-option-disabled) {
+    background-color: @select-bgColor;
+  }
+  .ant-select-dropdown {
+    padding: 0;
+  }
+
+  //下拉图标
+  .ant-select-arrow {
+    background: url('../assets/common/dropDown.png') no-repeat center;
+  }
+  .ant-select-arrow .ant-select-arrow-icon svg {
+    opacity: 0;
+  }
+
+  .ant-input:hover {
+    border-color: @shape-color !important;
+  }
+  .ant-checkbox-checked .ant-checkbox-inner {
+    background-color: @shape-color !important;
+    border-color: @shape-color !important;
+  }
+  .ant-switch-checked {
+    background-color: @shape-color !important;
+  }
+  .ant-radio-inner::after {
+    border-color: @shape-color !important;
+  }
+  .ant-radio-inner::after {
+    background-color: @shape-color !important;
+  }
+  //antd按钮组件样式
+  .ant-button-reStyle {
+    border-radius: 4px !important;
+    background: @shape-color !important;
+    border-color: @shape-color !important;
+    color: @white !important;
+  }
+  .ant-btn-primary,
+  .ant-btn-primary:hover,
+  .ant-btn-primary:visited,
+  .ant-btn-primary:focus {
+    .ant-button-reStyle();
+  }
+  .ant-btn:hover {
+    border-color: @shape-color;
+    color: @black;
+  }
+  .ant-btn:focus {
+    border-color: @shape-color;
+    color: @black;
+  }
+  //antd分页组件样式
+  .ant-pagination-item:hover,
+  .ant-pagination-item-active,
+  .ant-pagination-item-active:hover,
+  .ant-pagination-item-active:focus {
+    border-color: @shape-color;
+    a {
+      color: @shape-color;
+    }
+  }
+}

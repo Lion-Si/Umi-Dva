@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63 (92445) - https://sketch.com -->
+    <title>搜索</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 -1.77635684e-15 16.35 -1.77635684e-15 16.35 13.825 0 13.825"></polygon>
+    </defs>
+    <g id="后台设计" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="首页" transform="translate(-377.000000, -352.000000)">
+            <g id="编组-50" transform="translate(212.000000, 281.000000)">
+                <g id="搜索-" transform="translate(165.000000, 71.000000)">
+                    <g id="搜索">
+                        <g id="编组" transform="translate(1.000000, 2.000000)">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <g id="Clip-2"></g>
+                            <path d="M6.7485,12.2168 C3.7335,12.2168 1.2805,9.7638 1.2805,6.7478 C1.2805,3.7328 3.7335,1.2788 6.7485,1.2788 C9.7635,1.2788 12.2165,3.7328 12.2165,6.7478 C12.2165,9.7638 9.7635,12.2168 6.7485,12.2168 M16.0955,12.6738 L12.6215,10.0608 C13.1765,9.0808 13.4975,7.9518 13.4975,6.7478 C13.4975,3.0278 10.4695,-0.0002 6.7485,-0.0002 C3.0275,-0.0002 -0.0005,3.0278 -0.0005,6.7478 C-0.0005,10.4688 3.0275,13.4958 6.7485,13.4958 C8.8065,13.4958 10.6495,12.5678 11.8885,11.1108 L15.3265,13.6968 C15.6075,13.9088 16.0105,13.8518 16.2225,13.5708 C16.4345,13.2888 16.3765,12.8858 16.0955,12.6738" id="Fill-1" fill="#3F67ED" mask="url(#mask-2)"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
